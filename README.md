@@ -17,7 +17,7 @@ docker pull craftingit/nextcloud:latest
 - `USER_ID` Set the UserID of www-user.
 - `GROUP_ID` Set the GroupID of www-user.
 - `ADDITIONAL_GROUPS` Add the user to additional groups. In the format `GROUPID1:GROUPNAME1;GROUPID2:GROUPNAME2`
-- `NEXTCLOUD_DATA_DIR` Set different data directory with rights of www-user (absolute path)
+- `NEXTCLOUD_DATA_DIR` Set different data directory with rights of www-user (absolute path).
 
 ## Nextcloud-Cron [![](https://badgen.net/badge/docker/Docker?icon&label=View%20on)](https://hub.docker.com/r/craftingit/nextcloud-cron) ![](https://badgen.net/docker/pulls/craftingit/nextcloud-cron?icon=docker&label=pulls) ![](https://badgen.net/docker/stars/craftingit/nextcloud-cron?icon=docker&label=stars) ![](https://badgen.net/docker/size/craftingit/nextcloud-cron?icon=docker)
 
